@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 64 64"
+   version="1.1"
+   x="0px"
+   y="0px"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="boundle.svg"
+   inkscape:export-filename="E:\Dropbox\IDE\xampp\htdocs\prosperagency\open\boundle\assets\img\boundle.png"
+   inkscape:export-xdpi="45"
+   inkscape:export-ydpi="45"
+   width="64"
+   height="64">
+  <metadata
+     id="metadata26">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>waves</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs24" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview22"
+     showgrid="false"
+     inkscape:zoom="5.9555556"
+     inkscape:cx="42.5"
+     inkscape:cy="42.5"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <title
+     id="title4">waves</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <g
+     id="g4178"
+     transform="matrix(0.75294118,0,0,0.75294118,-1.8823529,-1.8823529)">
+    <path
+       d="M 2.5,45 C 2.5,68.472102 21.527898,87.5 45,87.5 68.472102,87.5 87.5,68.472102 87.5,45 87.5,21.527898 68.472102,2.5 45,2.5 21.527898,2.5 2.5,21.527898 2.5,45 Z m 80,0 C 82.5,65.710678 65.710678,82.5 45,82.5 24.289322,82.5 7.5,65.710678 7.5,45 7.5,24.289322 24.289322,7.5 45,7.5 65.710678,7.5 82.5,24.289322 82.5,45 Z"
+       sketch:type="MSShapeGroup"
+       id="path10"
+       inkscape:connector-curvature="0"
+       style="opacity:0.5;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:1" />
+    <path
+       d="M 13.5,56 C 13.5,73.39697 27.60303,87.5 45,87.5 62.39697,87.5 76.5,73.39697 76.5,56 76.5,38.60303 62.39697,24.5 45,24.5 27.60303,24.5 13.5,38.60303 13.5,56 Z m 58,0 C 71.5,70.635546 59.635546,82.5 45,82.5 30.364454,82.5 18.5,70.635546 18.5,56 18.5,41.364454 30.364454,29.5 45,29.5 59.635546,29.5 71.5,41.364454 71.5,56 Z"
+       sketch:type="MSShapeGroup"
+       id="path12"
+       inkscape:connector-curvature="0"
+       style="opacity:0.5;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:1" />
+    <path
+       d="M 24.5,67 C 24.5,78.321837 33.678163,87.5 45,87.5 56.321837,87.5 65.5,78.321837 65.5,67 65.5,55.678163 56.321837,46.5 45,46.5 33.678163,46.5 24.5,55.678163 24.5,67 Z m 36,0 c 0,8.560414 -6.939586,15.5 -15.5,15.5 -8.560414,0 -15.5,-6.939586 -15.5,-15.5 0,-8.560414 6.939586,-15.5 15.5,-15.5 8.560414,0 15.5,6.939586 15.5,15.5 z"
+       sketch:type="MSShapeGroup"
+       id="path14"
+       inkscape:connector-curvature="0"
+       style="opacity:0.5;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:1" />
+    <path
+       d="m 32,74.5 c 0,7.179702 5.820298,13 13,13 7.179702,0 13,-5.820298 13,-13 0,-7.179702 -5.820298,-13 -13,-13 -7.179702,0 -13,5.820298 -13,13 z m 21,0 c 0,4.418278 -3.581722,8 -8,8 -4.418278,0 -8,-3.581722 -8,-8 0,-4.418278 3.581722,-8 8,-8 4.418278,0 8,3.581722 8,8 z"
+       sketch:type="MSShapeGroup"
+       id="path16"
+       inkscape:connector-curvature="0"
+       style="opacity:0.5;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:1" />
+  </g>
+</svg>

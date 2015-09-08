@@ -1,0 +1,17 @@
+*, body, html {
+	font-family:Lato;
+	outline:none;
+	background:#fafafa;
+}
+img.icon {
+	width:64px;
+	height:64px;
+}
+
+.name {
+	color:darkgreen;
+	text-transform:uppercase;
+}
+.editable {
+	color:orange;
+}
