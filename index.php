@@ -26,7 +26,7 @@
 
 <h1>B <img src="assets/img/boundle.svg" class="icon"> undle</h1>
 
-<p>Boundle binds the value of HTML elements to the global <code>boundle</code> JSON object. Simply include <code>boundle.js</code> after <code>jquery</code>, then add the <code>data-boundle</code> attribute to the HTML elements you'd like to synchronize.</p>
+<p>Boundle binds the value of HTML elements to the global <code>boundle</code> JSON object. Simply include <code>boundle.js</code> after <code>jquery</code>, then add the <code>data-boundle</code> attribute to the HTML elements you'd like to synchronize; conversely, execute the <code>boundleForms</code> function to dynamically boundle any old HTML form.</p>
 
 <hr>
 
@@ -135,7 +135,6 @@
 </div>
 
 <div class="col-sm-6">
-<p>The <code>boundleForms ()</code> function dynamically boundles any old HTML form.</p>
 <p>When a boundable element doesn't have an id or name attribute <span class="text-muted">(ex: "Remember Me" field)</span> its <code>data-boundle</code> attribute values follows the following convention: <code>boundle-{[data-boundle].length}</code>.</p>
 <p>The following input element types aren't boundable:</p>
 <ul class="inline">
