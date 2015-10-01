@@ -104,6 +104,51 @@
 
 </div><!-- .container -->
 
+<div class="container">
+<h2 style="color:darkgray;">Unboundled Form</h2>
+<hr>
+<div class="row">
+<div class="col-sm-6">
+<form>
+
+<!-- AUTOCOMPLETE HACK -->
+<input class="hidden" type="password">
+
+<div class="form-group">
+<label class="control-label" for="email">Email</label>
+<input class="form-control" id="email" placeholder="Enter email" type="email">
+</div>
+
+<div class="form-group">
+<label class="control-label" for="password">Password</label>
+<input class="form-control" id="password" placeholder="Enter password" type="password">
+</div>
+
+<div class="form-group">
+<div class="checkbox"><label><input type="checkbox"> Remember Me</label></div>
+</div>
+
+<div class="form-group">
+<button id="boundleButton" class="btn btn-default" type="submit">Boundle this Form</button>
+</div>
+</form>
+</div>
+
+<div class="col-sm-6">
+<p>The <code>boundleForms ()</code> function dynamically boundles any old HTML form.</p>
+<p>When a boundable element doesn't have an id or name attribute <span class="text-muted">(ex: "Remember Me" field)</span> its <code>data-boundle</code> attribute values follows the following convention: <code>boundle-{[data-boundle].length}</code>.</p>
+<p>The following input element types aren't boundable:</p>
+<ul class="inline">
+<li>password</li>
+<li>button</li>
+<li>submit</li>
+<li>hidden</li>
+</ul>
+
+</div>
+</div>
+</div>
+
 <footer>
 <div class="container">
 <div class="row">
@@ -125,4 +170,20 @@
 
 <!-- Boundle -->
 <script src="assets/js/boundle.js"></script>
+
+<script>
+$ (window).ready (function () {
+	$ ("#boundleButton").click (function (e) {
+		e.preventDefault ();
+		
+		boundleForms ();
+		
+		$ ("h2").text ("Boundled Form");
+		$ (this).addClass ("disabled");
+		
+		return true;
+	});
+});
+</script>
+
 </body></html>
