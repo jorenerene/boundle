@@ -12,6 +12,9 @@
 <!-- Bootstrap -->
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 
+<!-- Font Awesome -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 <!-- Style -->
 <link rel='stylesheet' href='assets/css/style.css'>
 
@@ -149,13 +152,20 @@
 </div>
 
 <footer>
-<div class="container">
-<div class="row">
-<div class="col-sm-12">
+<div class='container'>
 
 <hr>
 
-<p class='text-muted'><small><a href="http://prosperful.com">Prosperful</a> &copy; 1983 - 2015. All Rights Reserved</small></p>
+<div class='row'>
+<div class='col-sm-6'>
+
+<p class='small'>&copy; <!--1983 - --><?php echo date ("Y") ?> <a href="http://prosperful.com">Prosperful</a>. All rights reserved.</p>
+
+</div>
+<div class='col-sm-6'>
+
+<p class='text-right small'>Designed with <span class="heart"><i class="fa fa-heart"></i></span> and developed with <i class="fa fa-coffee"></i></p>
+
 </div>
 </div>
 </div>
